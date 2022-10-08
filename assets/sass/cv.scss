@@ -1,0 +1,626 @@
+h{
+    margin: 0;
+    padding: 0;
+}
+.site{
+    &_header{
+        // background-color: ;
+        &_container{
+            .address{
+                &_list{
+                    list-style-type: none;
+                    display: flex;
+                    width:152px;
+                    height:124px;
+                    &_item{
+                        img{
+
+                        }
+                    }
+                }
+            }
+            .info{
+                display: flex;
+                justify-content: right;
+                &_name{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content:center;
+                    padding-right: 30px;
+                    h1{
+                        font-size: 50px;
+                        font-family: 'Sacramento', cursive;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    h2{
+                        font-family: 'Montserrat Subrayada', sans-serif;
+                        font-weight: 400;
+                        color: #2d3038;
+                        // margin-bottom: 10px;
+                        font-size: 70px;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    h3{
+                        font-size: 10px;
+                        text-transform: uppercase;
+                        letter-spacing: 26px;
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 700;
+                        color: #2d3038;
+                        // margin-top: 10px;
+                        // margin-bottom: 10px;
+                        margin: 0;
+                        padding: 0;
+                    }
+    
+                }
+                &_avatar{
+                    img{
+                        width:690px;
+                        height:790px;
+                        border-radius: 20%;
+                    }
+                }
+            }
+        }
+    }
+    &_main{
+        width:100%;
+        &_navbar{
+            width:100%;
+            background-color: black; 
+            .collaspe{
+                // margin: 0;
+                // padding: 0;
+                width:100%;
+                // position: fixed;
+                // bottom: 0; left: 0;
+                &_menu{
+                    display: flex;
+                    justify-content: center;
+                    width:100%;
+                    margin: 0;
+                    padding: 0;
+                    &_item{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        width:8%;
+                        // :hover{
+                        //     padding-bottom: 40px;
+                        // }
+                        a{
+                            text-decoration: none;
+                            // line-height: cen;
+                            color: #fff;
+                            font-size: 14px;
+                            text-transform: uppercase;
+                            display: block;
+                        }
+                    }
+                    #logo{
+                        width:24%;  
+                        justify-content: right;
+                        img{
+                            width:112px;
+                            height:58px;
+                        }
+                    }
+                }
+            }
+        }
+        &_aboutme{
+            padding-top:40px;
+            width: 100%;
+            height:500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .container{
+                display: flex;
+                justify-content: center;
+                .name{
+                    padding-right: 30px;
+                    h1{
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 700;
+                        color: #2d3038;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+                .info{
+                    &_content{
+                        p{
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+                    &_signature{
+                        h1{
+                            font-size: 50px;
+                            font-family: 'Sacramento', cursive;
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                    &_list{
+                        address{
+                            p{
+                                font-family: 'Montserrat', sans-serif;
+                                font-weight: normal;
+                               #indam{
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                    &_achievement{
+                        display: flex;
+                        justify-content: flex-start;
+                        list-style-type: none;
+                        position: relative;
+                        right:35px;
+                        &_item{
+                            margin-right: 15px;
+                            h4{
+                                font-size: 16px;
+                                font-weight: normal;
+                                margin-top: 0;
+                            }
+                            .counter{
+                                font-size: 56px;
+                                font-weight: 700;
+                                color: #f7941d;
+                                line-height: 62px;
+                                margin-right: 15px;
+                            }
+                            .counter1{
+                                font-size: 56px;
+                                font-weight: 700;
+                                color:  #873e95;
+                                line-height: 62px;
+                                margin-right: 15px;
+                            }
+                            .counter2{
+                                font-size: 56px;
+                                font-weight: 700;
+                                color: #3c70b4;
+                                line-height: 62px;
+                                margin-right: 15px;
+                            }
+                            .counter3{
+                                font-size: 56px;
+                                font-weight: 700;
+                                color: #87c05e;
+                                line-height: 62px;
+                                margin-right: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &_skill{
+            width: 100%;
+            height:500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .container{
+                display: flex;
+                justify-content: center;
+                .name{
+                    padding-right: 30px;
+                    h1{
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 700;
+                        color: #2d3038;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+                .content{        
+                    &_info{
+                        h4{
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: 700;
+                            color: #2d3038;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        p{
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 24px;
+                        }
+                    }
+                    &_skill{
+                        display: flex;
+                        &_left{
+                            width:50%;
+                            padding-top:10px ;
+                            padding-bottom:10px;
+                            padding-left: 25px;
+                            padding-right: 25px;
+                            .unicar{ 
+                                margin-bottom: 20px;                                                                                                              
+                                &_title{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    &_name{
+                                        a{
+                                            font-family: 'Montserrat', sans-serif;
+                                            color: #2d3038;
+                                        }
+                                    }
+                                    &_number{
+                                        a{
+                                            font-family: 'Montserrat', sans-serif;
+                                            color: #2d3038;
+                                        }
+                                    }
+
+                                }
+                                &_power{
+                                    width:100%;
+                                    height:5px;
+                                    background-color: #2d3038;
+                                    border: 1px solid #fff;
+                                    &_numeral{
+                                        width:90%;
+                                        height:100%;
+                                        background-color: red;
+                                    }
+                                }                                                                                                                                                                                                            
+                            }
+                            .now{
+                                margin-bottom: 20px;      
+                                &_title{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    &_name{
+                                        a{
+                                            font-family: 'Montserrat', sans-serif;
+                                            color: #2d3038;
+                                        }
+                                    }
+                                    &_number{
+                                        a{
+                                            font-family: 'Montserrat', sans-serif;
+                                            color: #2d3038;
+                                        }
+                                    }
+
+                                }
+                                &_power{
+                                    width:100%;
+                                    height:5px;
+                                    background-color: #2d3038;
+                                    border-radius: 10%;
+                                    border: 1px solid #fff;
+                                    &_numeral{
+                                        width:90%;
+                                        height:100%;
+                                        background-color:#87c05e;
+                                    }
+                                }               
+                            }
+                            .baemin{
+                                margin-bottom: 20px;      
+                                &_title{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    &_name{
+                                        a{
+                                            font-family: 'Montserrat', sans-serif;
+                                            color: #2d3038;
+                                        }
+                                    }
+                                    &_number{
+                                        a{
+                                            font-family: 'Montserrat', sans-serif;
+                                            color: #2d3038;
+                                        }
+                                    }
+
+                                }
+                                &_power{
+                                    width:100%;
+                                    height:5px;
+                                    background-color: #2d3038;
+                                    border-radius: 10%;
+                                    border: 1px solid #fff;
+                                    &_numeral{
+                                        width:90%;
+                                        height:100%;
+                                        background-color:#3c70b4;
+                                    }
+                                }               
+                            }
+                        }
+                        &_right{
+                            width:50%;
+                            padding-top:10px ;
+                            padding-bottom:10px;
+                            padding-left: 25px;
+                            padding-right: 25px;
+                            .htmlcss{
+                                margin-bottom: 20px;                                                                                                              
+                                &_title{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    &_name{
+                                        a{
+                                            font-family: 'Montserrat', sans-serif;
+                                            color: #2d3038;
+                                        }
+                                    }
+                                    &_number{
+                                        a{
+                                            font-family: 'Montserrat', sans-serif;
+                                            color: #2d3038;
+                                        }
+                                    }
+
+                                }
+                                &_power{
+                                    width:100%;
+                                    height:5px;
+                                    background-color: #2d3038;
+                                    border: 1px solid #fff;
+                                    &_numeral{
+                                        width:80%;
+                                        height:100%;
+                                        background-color:#f7941d;
+                                    }
+                                }                                                                                                                                                                                         
+                            }
+                            .java{
+                                margin-bottom: 20px;      
+                                &_title{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    &_name{
+                                        a{
+                                            font-family: 'Montserrat', sans-serif;
+                                            color: #2d3038;
+                                        }
+                                    }
+                                    &_number{
+                                        a{
+                                            font-family: 'Montserrat', sans-serif;
+                                            color: #2d3038;
+                                        }
+                                    }
+
+                                }
+                                &_power{
+                                    width:100%;
+                                    height:5px;
+                                    background-color: #2d3038;
+                                    border: 1px solid #fff;
+                                    &_numeral{
+                                        width:70%;
+                                        height:100%;
+                                        background-color:darkgreen;
+                                    }
+                                }               
+                            }
+                            .garena{
+                                margin-bottom: 20px;      
+                                &_title{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    &_name{
+                                        a{
+                                            font-family: 'Montserrat', sans-serif;
+                                            color: #2d3038;
+                                        }
+                                    }
+                                    &_number{
+                                        a{
+                                            font-family: 'Montserrat', sans-serif;
+                                            color: #2d3038;
+                                        }
+                                    }
+
+                                }
+                                &_power{
+                                    width:100%;
+                                    height:5px;
+                                    background-color: #2d3038;
+                                    border: 1px solid #fff;
+                                    &_numeral{
+                                        width:100%;
+                                        height:100%;
+                                        background-color:maroon;
+                                    }
+                                }               
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+        &_education{
+            width: 100%;
+            height:1000px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .container{
+                display: flex;
+                justify-content: center;
+                position: relative;
+                left:70px;
+                .title{
+                    &_name{
+                        padding-right: 30px;
+                        h1{
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: 700;
+                            color: #2d3038;
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                }
+                .content{
+                    // display: flex;
+                    // justify-content: flex-start;
+                    &_info{
+                        h4{
+                            font-family: 'Montserrat', sans-serif;
+                            color: #2d3038;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        p{
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    &_list{
+                        list-style-type: none;
+                        &_item{
+                            padding-top: 20px;
+                            img{
+                                width:70px;
+                                height:70px;
+                            }
+                            h3{
+                                font-family: 'Montserrat', sans-serif;
+                                font-weight: 700;
+                                color: #2d3038;
+                            }
+                            h5{
+                                font-family: 'Montserrat', sans-serif;
+                            }
+                            p{
+                                font-family: 'Montserrat', sans-serif;
+                                font-weight: normal;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &_contact{
+            .container{
+                display: flex;
+                justify-content: center;
+                .title{
+                    padding-right: 30px;
+                    &_name{
+                        h1{
+                            font-family: 'Montserrat', sans-serif;
+
+                        }
+                    }
+                }
+                .content{
+                    &_info{
+                        margin-left: 38px;
+                        h3{
+                            font-family: 'Montserrat', sans-serif;
+                            color: #2d3038;
+                        }
+                        p{
+                            font-family: 'Montserrat', sans-serif;
+                        }
+                    }
+                    &_list{
+                        list-style-type: none;
+                        // text-align: left;
+                        margin: 0;
+                        padding: 0;
+                        &_item{
+                            display: flex;
+                            align-items: center;
+                            .image{
+                                padding-right: 15px;
+                                :hover{
+                                    transform: rotate(180deg);
+                                }
+                                img{
+                                    width:40px;
+                                    height:40px;
+                                }
+                            }
+                            .infomation{
+                                h3{
+                                    font-family: 'Montserrat', sans-serif;
+                                    color: #2d3038;
+                                }
+                                p{
+                                    font-family: 'Montserrat', sans-serif;
+                                    font-size: 16px
+                                }
+                            }
+                        }
+                        #form{
+                            display: flex;
+                            align-items: flex-start;
+                            .image{
+                                padding-right: 15px;
+                                position: relative;
+                                top:10px;
+                                img{
+                                    width:40px;
+                                    height:40px;
+                                }
+                            }
+                            .infomation{
+                                h3{
+                                    font-family: 'Montserrat', sans-serif;
+                                    color: #2d3038;
+                                }
+                                p{
+                                    font-family: 'Montserrat', sans-serif;
+                                    font-size: 16px
+                                }
+                                form{
+                                    .name{
+                                        width:50%;
+                                        height:30px;
+                                        // border-radius: 10%;
+                                        float:left;
+                                        margin-bottom: 25px;
+                                    }
+                                    .email{
+                                        width:50%;
+                                        height:30px;
+                                        margin-bottom: 25px;
+                                    }
+                                    .title{
+                                        width:100%;
+                                        height:30px;
+                                        margin-bottom: 25px;
+                                    }
+                                    .mess{
+                                        width:100%;
+                                        height:80px;
+                                        margin-bottom: 25px;
+                                    }
+                                }
+                                button{
+                                    width:80px;
+                                    height:30px;
+                                    color:#873e95;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

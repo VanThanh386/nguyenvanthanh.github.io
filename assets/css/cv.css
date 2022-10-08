@@ -1,0 +1,421 @@
+h {
+  margin: 0;
+  padding: 0; }
+
+.site_header_container .address_list {
+  list-style-type: none;
+  display: flex;
+  width: 152px;
+  height: 124px; }
+.site_header_container .info {
+  display: flex;
+  justify-content: right; }
+  .site_header_container .info_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 30px; }
+    .site_header_container .info_name h1 {
+      font-size: 50px;
+      font-family: 'Sacramento', cursive;
+      margin: 0;
+      padding: 0; }
+    .site_header_container .info_name h2 {
+      font-family: 'Montserrat Subrayada', sans-serif;
+      font-weight: 400;
+      color: #2d3038;
+      font-size: 70px;
+      margin: 0;
+      padding: 0; }
+    .site_header_container .info_name h3 {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 26px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: #2d3038;
+      margin: 0;
+      padding: 0; }
+  .site_header_container .info_avatar img {
+    width: 690px;
+    height: 790px;
+    border-radius: 20%; }
+.site_main {
+  width: 100%; }
+  .site_main_navbar {
+    width: 100%;
+    background-color: black; }
+    .site_main_navbar .collaspe {
+      width: 100%; }
+      .site_main_navbar .collaspe_menu {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 0; }
+        .site_main_navbar .collaspe_menu_item {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          width: 8%; }
+          .site_main_navbar .collaspe_menu_item a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+            text-transform: uppercase;
+            display: block; }
+        .site_main_navbar .collaspe_menu #logo {
+          width: 24%;
+          justify-content: right; }
+          .site_main_navbar .collaspe_menu #logo img {
+            width: 112px;
+            height: 58px; }
+  .site_main_aboutme {
+    padding-top: 40px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .site_main_aboutme .container {
+      display: flex;
+      justify-content: center; }
+      .site_main_aboutme .container .name {
+        padding-right: 30px; }
+        .site_main_aboutme .container .name h1 {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+          color: #2d3038;
+          margin-top: 10px;
+          margin-bottom: 10px; }
+      .site_main_aboutme .container .info_content p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px; }
+      .site_main_aboutme .container .info_signature h1 {
+        font-size: 50px;
+        font-family: 'Sacramento', cursive;
+        margin: 0;
+        padding: 0; }
+      .site_main_aboutme .container .info_list address p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal; }
+        .site_main_aboutme .container .info_list address p #indam {
+          font-weight: 700; }
+      .site_main_aboutme .container .info_achievement {
+        display: flex;
+        justify-content: flex-start;
+        list-style-type: none;
+        position: relative;
+        right: 35px; }
+        .site_main_aboutme .container .info_achievement_item {
+          margin-right: 15px; }
+          .site_main_aboutme .container .info_achievement_item h4 {
+            font-size: 16px;
+            font-weight: normal;
+            margin-top: 0; }
+          .site_main_aboutme .container .info_achievement_item .counter {
+            font-size: 56px;
+            font-weight: 700;
+            color: #f7941d;
+            line-height: 62px;
+            margin-right: 15px; }
+          .site_main_aboutme .container .info_achievement_item .counter1 {
+            font-size: 56px;
+            font-weight: 700;
+            color: #873e95;
+            line-height: 62px;
+            margin-right: 15px; }
+          .site_main_aboutme .container .info_achievement_item .counter2 {
+            font-size: 56px;
+            font-weight: 700;
+            color: #3c70b4;
+            line-height: 62px;
+            margin-right: 15px; }
+          .site_main_aboutme .container .info_achievement_item .counter3 {
+            font-size: 56px;
+            font-weight: 700;
+            color: #87c05e;
+            line-height: 62px;
+            margin-right: 15px; }
+  .site_main_skill {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .site_main_skill .container {
+      display: flex;
+      justify-content: center; }
+      .site_main_skill .container .name {
+        padding-right: 30px; }
+        .site_main_skill .container .name h1 {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+          color: #2d3038;
+          margin: 0;
+          padding: 0; }
+      .site_main_skill .container .content_info h4 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color: #2d3038;
+        margin: 0;
+        padding: 0; }
+      .site_main_skill .container .content_info p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px; }
+      .site_main_skill .container .content_skill {
+        display: flex; }
+        .site_main_skill .container .content_skill_left {
+          width: 50%;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 25px;
+          padding-right: 25px; }
+          .site_main_skill .container .content_skill_left .unicar {
+            margin-bottom: 20px; }
+            .site_main_skill .container .content_skill_left .unicar_title {
+              display: flex;
+              justify-content: space-between; }
+              .site_main_skill .container .content_skill_left .unicar_title_name a {
+                font-family: 'Montserrat', sans-serif;
+                color: #2d3038; }
+              .site_main_skill .container .content_skill_left .unicar_title_number a {
+                font-family: 'Montserrat', sans-serif;
+                color: #2d3038; }
+            .site_main_skill .container .content_skill_left .unicar_power {
+              width: 100%;
+              height: 5px;
+              background-color: #2d3038;
+              border: 1px solid #fff; }
+              .site_main_skill .container .content_skill_left .unicar_power_numeral {
+                width: 90%;
+                height: 100%;
+                background-color: red; }
+          .site_main_skill .container .content_skill_left .now {
+            margin-bottom: 20px; }
+            .site_main_skill .container .content_skill_left .now_title {
+              display: flex;
+              justify-content: space-between; }
+              .site_main_skill .container .content_skill_left .now_title_name a {
+                font-family: 'Montserrat', sans-serif;
+                color: #2d3038; }
+              .site_main_skill .container .content_skill_left .now_title_number a {
+                font-family: 'Montserrat', sans-serif;
+                color: #2d3038; }
+            .site_main_skill .container .content_skill_left .now_power {
+              width: 100%;
+              height: 5px;
+              background-color: #2d3038;
+              border-radius: 10%;
+              border: 1px solid #fff; }
+              .site_main_skill .container .content_skill_left .now_power_numeral {
+                width: 90%;
+                height: 100%;
+                background-color: #87c05e; }
+          .site_main_skill .container .content_skill_left .baemin {
+            margin-bottom: 20px; }
+            .site_main_skill .container .content_skill_left .baemin_title {
+              display: flex;
+              justify-content: space-between; }
+              .site_main_skill .container .content_skill_left .baemin_title_name a {
+                font-family: 'Montserrat', sans-serif;
+                color: #2d3038; }
+              .site_main_skill .container .content_skill_left .baemin_title_number a {
+                font-family: 'Montserrat', sans-serif;
+                color: #2d3038; }
+            .site_main_skill .container .content_skill_left .baemin_power {
+              width: 100%;
+              height: 5px;
+              background-color: #2d3038;
+              border-radius: 10%;
+              border: 1px solid #fff; }
+              .site_main_skill .container .content_skill_left .baemin_power_numeral {
+                width: 90%;
+                height: 100%;
+                background-color: #3c70b4; }
+        .site_main_skill .container .content_skill_right {
+          width: 50%;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 25px;
+          padding-right: 25px; }
+          .site_main_skill .container .content_skill_right .htmlcss {
+            margin-bottom: 20px; }
+            .site_main_skill .container .content_skill_right .htmlcss_title {
+              display: flex;
+              justify-content: space-between; }
+              .site_main_skill .container .content_skill_right .htmlcss_title_name a {
+                font-family: 'Montserrat', sans-serif;
+                color: #2d3038; }
+              .site_main_skill .container .content_skill_right .htmlcss_title_number a {
+                font-family: 'Montserrat', sans-serif;
+                color: #2d3038; }
+            .site_main_skill .container .content_skill_right .htmlcss_power {
+              width: 100%;
+              height: 5px;
+              background-color: #2d3038;
+              border: 1px solid #fff; }
+              .site_main_skill .container .content_skill_right .htmlcss_power_numeral {
+                width: 80%;
+                height: 100%;
+                background-color: #f7941d; }
+          .site_main_skill .container .content_skill_right .java {
+            margin-bottom: 20px; }
+            .site_main_skill .container .content_skill_right .java_title {
+              display: flex;
+              justify-content: space-between; }
+              .site_main_skill .container .content_skill_right .java_title_name a {
+                font-family: 'Montserrat', sans-serif;
+                color: #2d3038; }
+              .site_main_skill .container .content_skill_right .java_title_number a {
+                font-family: 'Montserrat', sans-serif;
+                color: #2d3038; }
+            .site_main_skill .container .content_skill_right .java_power {
+              width: 100%;
+              height: 5px;
+              background-color: #2d3038;
+              border: 1px solid #fff; }
+              .site_main_skill .container .content_skill_right .java_power_numeral {
+                width: 70%;
+                height: 100%;
+                background-color: darkgreen; }
+          .site_main_skill .container .content_skill_right .garena {
+            margin-bottom: 20px; }
+            .site_main_skill .container .content_skill_right .garena_title {
+              display: flex;
+              justify-content: space-between; }
+              .site_main_skill .container .content_skill_right .garena_title_name a {
+                font-family: 'Montserrat', sans-serif;
+                color: #2d3038; }
+              .site_main_skill .container .content_skill_right .garena_title_number a {
+                font-family: 'Montserrat', sans-serif;
+                color: #2d3038; }
+            .site_main_skill .container .content_skill_right .garena_power {
+              width: 100%;
+              height: 5px;
+              background-color: #2d3038;
+              border: 1px solid #fff; }
+              .site_main_skill .container .content_skill_right .garena_power_numeral {
+                width: 100%;
+                height: 100%;
+                background-color: maroon; }
+  .site_main_education {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .site_main_education .container {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      left: 70px; }
+      .site_main_education .container .title_name {
+        padding-right: 30px; }
+        .site_main_education .container .title_name h1 {
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 700;
+          color: #2d3038;
+          margin: 0;
+          padding: 0; }
+      .site_main_education .container .content_info h4 {
+        font-family: 'Montserrat', sans-serif;
+        color: #2d3038;
+        margin: 0;
+        padding: 0; }
+      .site_main_education .container .content_info p {
+        font-family: 'Montserrat', sans-serif; }
+      .site_main_education .container .content_list {
+        list-style-type: none; }
+        .site_main_education .container .content_list_item {
+          padding-top: 20px; }
+          .site_main_education .container .content_list_item img {
+            width: 70px;
+            height: 70px; }
+          .site_main_education .container .content_list_item h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #2d3038; }
+          .site_main_education .container .content_list_item h5 {
+            font-family: 'Montserrat', sans-serif; }
+          .site_main_education .container .content_list_item p {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: normal; }
+  .site_main_contact .container {
+    display: flex;
+    justify-content: center; }
+    .site_main_contact .container .title {
+      padding-right: 30px; }
+      .site_main_contact .container .title_name h1 {
+        font-family: 'Montserrat', sans-serif; }
+    .site_main_contact .container .content_info {
+      margin-left: 38px; }
+      .site_main_contact .container .content_info h3 {
+        font-family: 'Montserrat', sans-serif;
+        color: #2d3038; }
+      .site_main_contact .container .content_info p {
+        font-family: 'Montserrat', sans-serif; }
+    .site_main_contact .container .content_list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      .site_main_contact .container .content_list_item {
+        display: flex;
+        align-items: center; }
+        .site_main_contact .container .content_list_item .image {
+          padding-right: 15px; }
+          .site_main_contact .container .content_list_item .image :hover {
+            transform: rotate(180deg); }
+          .site_main_contact .container .content_list_item .image img {
+            width: 40px;
+            height: 40px; }
+        .site_main_contact .container .content_list_item .infomation h3 {
+          font-family: 'Montserrat', sans-serif;
+          color: #2d3038; }
+        .site_main_contact .container .content_list_item .infomation p {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 16px; }
+      .site_main_contact .container .content_list #form {
+        display: flex;
+        align-items: flex-start; }
+        .site_main_contact .container .content_list #form .image {
+          padding-right: 15px;
+          position: relative;
+          top: 10px; }
+          .site_main_contact .container .content_list #form .image img {
+            width: 40px;
+            height: 40px; }
+        .site_main_contact .container .content_list #form .infomation h3 {
+          font-family: 'Montserrat', sans-serif;
+          color: #2d3038; }
+        .site_main_contact .container .content_list #form .infomation p {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 16px; }
+        .site_main_contact .container .content_list #form .infomation form .name {
+          width: 50%;
+          height: 30px;
+          float: left;
+          margin-bottom: 25px; }
+        .site_main_contact .container .content_list #form .infomation form .email {
+          width: 50%;
+          height: 30px;
+          margin-bottom: 25px; }
+        .site_main_contact .container .content_list #form .infomation form .title {
+          width: 100%;
+          height: 30px;
+          margin-bottom: 25px; }
+        .site_main_contact .container .content_list #form .infomation form .mess {
+          width: 100%;
+          height: 80px;
+          margin-bottom: 25px; }
+        .site_main_contact .container .content_list #form .infomation button {
+          width: 80px;
+          height: 30px;
+          color: #873e95; }
+
+/*# sourceMappingURL=cv.css.map */

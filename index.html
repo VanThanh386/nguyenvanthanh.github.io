@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nguyen Van Thanh</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Sacramento&display=swap');
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Sacramento" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/cv.css">
+</head>
+<body>
+    <div class="site">
+      <header class="site_header">
+        <div class="site_header_container">
+          <!-- <div class="address">
+            <ul class="address_list">
+              <li id="facebook"class="address_list_item">
+                <a href=""><img src=""></a>
+              </li>
+              <li id="instagram" class="address_list_item">
+                <a href=""><img src=""></a>
+              </li>
+              <li id="twiter"class="address_list_item">
+                <a href=""><img src=""></a>
+              </li>
+              <li id="google"class="address_list_item">
+                <a href=""><img src=""></a>
+              </li>
+              <li class="address_list_item">
+                <a href=""><img src=""></a>
+              </li>
+              <li class="address_list_item">
+                <a href=""><img src=""></a>
+              </li>
+            </ul>
+          </div> -->
+          <div class="info">
+            <div class="info_name">
+              <h1>Hello</h1>
+              <h2>I am <span class="danh_chu" data-thoiGianDoi="500" data-chu='["Nguyen Van Thanh", "a Backend Developer", "a Shipper No 1"]'></span></h2>
+              <h3>Backend Developer</h3>
+            </div>
+            <div class="info_avatar">
+              <img src="assets/images/avatar.jpg">
+            </div>
+          </div>
+          <!--run letters-->
+          <script src="run_letters.js"></script>
+        </div>
+        <script>
+          //Function 
+          function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+          }
+          
+          // Get the element with id="defaultOpen" and click on it
+          document.getElementById("defaultOpen").click();
+      </script>
+      </header>
+      <main class="site_main">
+        <div class="site_main_navbar">
+          <div class="collaspe">
+            <ul class="collaspe_menu">
+              <li id="logo"style="background-color:black"class="collaspe_menu_item">
+                <a href=""><img src="assets/images/logo.png"></a>
+              </li>
+              <li style="background-color: #f4bf00"class="collaspe_menu_item">
+                <a href="">Home</a>
+              </li> 
+              <li style="background-color: #b90162" class="collaspe_menu_item">
+                <a href="#AboutMe">About Me</a>
+              </li>
+              <li style="background-color: #f7941d" class="collaspe_menu_item">
+                <a href="#skill">skill</a>
+              </li>
+              <li style="background-color:  #f26522"class="collaspe_menu_item">
+                <a href="#experience">Experience</a>
+              </li>
+              <li style="background-color:  #ed1c24" class="collaspe_menu_item">
+                <a href="#education">Education</a>
+              </li>
+              <li style="background-color:  #e10337" class="collaspe_menu_item">
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li style="background-color:  #873e95" class="collaspe_menu_item">
+                <a href="#contact">Contact</a>
+              </li>
+              <li style="background-color: #3c70b4 ; width: 20%" class="collaspe_menu_item">
+                <a href="#blog">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="AboutMe"class="site_main_aboutme">
+          <div class="container">
+            <div class="name">
+              <h1>Nguyễn Văn Thành</h1>
+            </div>
+            <div class="info">
+                <div class="info_content">
+                    <p>Thành là một người nông dân đổi mới có đam mê với sư phạm mầm non <br>nên anh ấy đã quyết định chọn công nghệ thông tin để khởi nghiệp</p>
+                </div>
+                <div class="info_signature">
+                    <h1>Nguyen Van Thanh</h1>
+                </div>
+                <div class="info_list">
+                  <address>
+                    <p><span id="indam">Nick Name:</span> Nguyễn Văn Thành</p>
+                    <p><span id="indam">Email:</span> Thanhyt999@gmail.com</p>
+                    <p><span id="indam">Phone:</span> 0332616332</p>
+                    <p><span id="indam">Date of Birth:</span> November 16, 2001</p>
+                    <p><span id="indam">Address:</span> Phường Quỳnh Thiện, Thị Xã Hoàng Mai, Nghệ An</p>
+                  </address>
+                </div>
+                <ul class="info_achievement">
+                  <li class="info_achievement_item">
+                    <span class="counter">35</span>
+                    <h4>Projects completed</h4>
+                  </li>
+                  <li class="info_achievement_item">
+                    <span class="counter1">19</span>
+                    <h4>Winning Awards</h4>
+                  </li>
+                  <li class="info_achievement_item">
+                    <span class="counter2">229</span>
+                    <h4>Happy Clients</h4>
+                  </li>
+                  <li class="info_achievement_item">
+                    <span class="counter3">19</span>
+                    <h4>Running Projects</h4>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <div id="skill"class="site_main_skill">
+          <div class="container">
+            <div class="name">
+              <h1>My Skill</h1>
+            </div>
+            <div class="content">
+              <div class="content_info">
+                <h4>Van Thanh Skill</h4>
+                <p>Dưới đây là tất cả các kỹ năng tôi được học trong 4 năm qua</p>
+              </div>
+              <div class="content_skill">
+                <div class="content_skill_left">
+                  <div class="unicar">  
+                    <div class="unicar_title">
+                      <div class="unicar_title_name">
+                        <a>Unicar</a>
+                      </div>
+                      <div class="unicar_title_number">
+                        <a>90%</a>
+                      </div>
+                    </div>
+                    <div class="unicar_power">
+                      <div class="unicar_power_numeral"></div>
+                    </div>
+                  </div>
+                  <div class="now">
+                    <div class="now_title">
+                      <div class="now_title_name">
+                        <a>Now</a>
+                      </div>
+                      <div class="now_title_number">
+                        <a>90%</a>
+                      </div>
+                    </div>
+                    <div class="now_power">
+                      <div class="now_power_numeral"></div>
+                    </div>
+                  </div>
+                  <div class="baemin">
+                    <div class="baemin_title">
+                      <div class="baemin_title_name">
+                        <a>Baemin</a>
+                      </div>
+                      <div class="baemin_title_number">
+                        <a>90%</a>
+                      </div>
+                    </div>
+                    <div class="baemin_power">
+                      <div class="baemin_power_numeral"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="content_skill_right">
+                  <div class="htmlcss">
+                    <div class="htmlcss_title">
+                      <div class="htmlcss_title_name">
+                        <a>HTML&CSS3</a>
+                      </div>
+                      <div class="htmlcss_title_number">
+                        <a>80%</a>
+                      </div>
+                    </div>
+                    <div class="htmlcss_power">
+                      <div class="htmlcss_power_numeral"></div>
+                    </div>
+                  </div>
+                  <div class="java">
+                    <div class="java_title">
+                      <div class="java_title_name">
+                        <a>Java</a>
+                      </div>
+                      <div class="java_title_number">
+                        <a>70%</a>
+                      </div>
+                    </div>
+                    <div class="java_power">
+                      <div class="java_power_numeral"></div>
+                    </div>
+                  </div>
+                  <div class="garena">
+                    <div class="garena_title">
+                      <div class="garena_title_name">
+                        <a>Garena</a>
+                      </div>
+                      <div class="garena_title_number">
+                        <a>100%</a>
+                      </div>
+                    </div>
+                    <div class="garena_power">
+                      <div class="garena_power_numeral"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="site_main_exprience"></div>
+        <div id="education"class="site_main_education"> 
+          <div class="container">
+            <div class="title">
+              <div class="title_name">
+                <h1>Education</h1>
+              </div>
+            </div>
+            <div class="content">
+              <div class="content_info">
+                <h4>Quá Trình Học Vấn Của Tôi</h4>
+                <p>Trên đây là quá trình nỗ lực và phấn đấu để được qua môn và ra trường</p>
+              </div>
+              <ul class="content_list">
+                <li class="content_list_item">
+                  <img src="assets/images/Thpthoangmai.png">
+                  <h3>Trường THPT Hoàng Mai</h3>
+                  <h5>2016-2019</h5>
+                  <p>Là một quãng thời gian đẹp đối với mình, mình rất yêu trường và yêu lớp</p>
+                </li>
+                <li class="content_list_item">
+                  <img src="assets/images/vinhuniversity.png">
+                  <h3>Trường Đại Học Vinh</h3>
+                  <h5>2019-2024</h5>
+                  <p>Là một quá trình vất vả toát mồ hôi để qua môn , quá khủng khiếp</p>
+                </li>
+                <li class="content_list_item">
+                  <img src="assets/images/truongdoi.png">
+                  <h3>Trường Đời</h3>
+                  <h5>2024-></h5>
+                  <p>Hihi</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="site_main_portfolio"></div>
+        <div id="contact"class="site_main_contact">
+          <div class="container">
+            <div class="title">
+              <div class="title_name">
+                <h1>Liên Hệ</h1>
+              </div>
+            </div>
+            <div class="content">
+              <div class="content_info">
+                <h3>Thông tin liên lạc</h3>
+                <p>Nếu mọi người buồn hãy liên hệ với tôi<br>Tôi dẫn các bạn ra hồ goong</p>
+              </div>
+              <ul class="content_list">
+                <li class="content_list_item">
+                  <div class="image">
+                    <img src="assets/images/home.png">
+                  </div>
+                  <div class="infomation">
+                    <h3>Địa Chỉ Nhà</h3>
+                    <p>Phường Quỳnh Thiện, Thị Xã Hoàng Mai, Nghệ An</p>
+                  </div>
+                </li>
+                <li class="content_list_item">
+                  <div class="image">
+                    <img src="assets/images/phone.png">
+                  </div>
+                  <div class="infomation">
+                    <h3>Số điện thoại</h3>
+                    <p>0332.616.332</p>
+                  </div>
+                </li>
+                <li class="content_list_item">
+                  <div class="image">
+                    <img src="assets/images/mail.png">
+                  </div>
+                  <div class="infomation">
+                    <h3>Địa Chỉ Email</h3>
+                    <p>Thanhyt999@gmail.com</p>
+                  </div>
+                </li>
+                <li id="form"class="content_list_item">
+                  <div class="image">
+                    <img src="assets/images/coment.png">
+                  </div>
+                  <div class="infomation">
+                    <h3>Hãy để lại thông tin của bạn ở đây nhé </h3>
+                    <p>Chúng tôi sẽ tâm sự với bạn trong ít phút nữa</p>
+                    <form>
+                      <input class="name"type="text" placeholder="Họ và Tên">
+                      <input class="email"type="text" placeholder="Email">
+                      <br>
+                      <input class="title"type="text" placeholder="Tiêu đề ">
+                      <br>
+                      <input class="mess"type="text" placeholder="Tin nhắn của bạn">
+                    </form>
+                    <button>Gửi</button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="site_main_blog"></div>
+      </main>
+    </div>
+  </body>
+</html>
